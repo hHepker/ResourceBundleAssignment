@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hepker;
+package com.hepker.left_form;
+
+import java.util.EventListener;
 
 /**
  *
  * @author Haley
  */
-public interface StringListener {
-    public void getText(String text);
+public interface FormListener extends EventListener {
+    public void formSubmit(FormEvent form);
 }
+
