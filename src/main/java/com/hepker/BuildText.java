@@ -17,7 +17,6 @@ public class BuildText {
     private String bodyText;
 
 public String StringBuilder(){
-    
     String html = "<!doctype HTML>";
     html += "\n\t<head>";
     html += "\n\t\t<meta charset=\"utf-8\">";
